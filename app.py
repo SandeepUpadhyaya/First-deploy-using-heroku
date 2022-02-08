@@ -36,4 +36,6 @@ def predictRupees1():
 
     return render_template('index.html', prediction_text='Employee Salary should be Rupees {}'.format(output))
 if __name__ == "__main__":
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(host='0.0.0.0')
+
